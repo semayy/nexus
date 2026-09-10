@@ -1,1 +1,2103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Nexus Energy Resources FZE | Upstream Oil & Gas and Energy Advisory</title>
+  <meta name="description" content="Senior financial, commercial, and strategic advisory for upstream oil & gas, natural resources, and energy. Founded by Arda Yakıcı (FCCA, CPA, GRI)." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.nexenr.com/" />
+  
+  <link rel="alternate" hreflang="en" href="https://www.nexenr.com/" />
+  <link rel="alternate" hreflang="ar" href="https://www.nexenr.com/ar/" />
+  <link rel="alternate" hreflang="x-default" href="https://www.nexenr.com/" />
 
+  <!-- Google Fonts: Inter & Cairo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Corporation",
+        "@id": "https://www.nexenr.com/#organization",
+        "name": "Nexus Energy Resources FZE",
+        "alternateName": "نيكسوس لمصادر الطاقة",
+        "url": "https://www.nexenr.com/",
+        "logo": "https://ctod.tr/wp/wp-content/uploads/2026/09/nexus-logo.png",
+        "email": "arda.y@nexenr.com",
+        "founder": {
+          "@type": "Person",
+          "name": "Arda Yakıcı",
+          "jobTitle": "Founder and Lead Consultant",
+          "hasCredential": ["FCCA", "CPA", "GRI Certified Sustainability Professional"]
+        },
+        "description": "Senior-led financial, commercial, and strategic advisory for upstream oil & gas, natural resources, and energy sectors."
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ==========================================================
+       2026 LUXURY DARK GLASS SYSTEM WITH INTERACTIVE SLIDER
+       ========================================================== */
+    :root {
+      /* Brand Logo Palette */
+      --brand-red: #C80036;
+      --brand-red-glow: rgba(200, 0, 54, 0.4);
+      --brand-red-tint: rgba(200, 0, 54, 0.12);
+      
+      --brand-green: #4E9B18;
+      --brand-green-bright: #5BB300;
+      --brand-green-glow: rgba(91, 179, 0, 0.4);
+      --brand-green-tint: rgba(91, 179, 0, 0.12);
+      
+      --brand-amber: #D97706;
+      --brand-gradient: linear-gradient(135deg, #C80036 0%, #D97706 50%, #4E9B18 100%);
+
+      /* Dark Slate Glass Hierarchy */
+      --bg-base: #06090F;
+      --bg-surface: rgba(15, 23, 42, 0.65);
+      --bg-surface-elevated: rgba(24, 34, 58, 0.7);
+      --bg-glass-card: rgba(255, 255, 255, 0.035);
+      --bg-glass-hover: rgba(255, 255, 255, 0.07);
+      
+      --border-glass: rgba(255, 255, 255, 0.08);
+      --border-glass-hover: rgba(255, 255, 255, 0.22);
+      
+      --text-white: #FFFFFF;
+      --text-main: #E2E8F0;
+      --text-muted: #94A3B8;
+      --text-dim: #64748B;
+      
+      --font-en: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-ar: 'Cairo', sans-serif;
+
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+      --radius-full: 9999px;
+      
+      --transition-fast: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 15px; /* Ölçülü, zarif taban boyutu */
+      color-scheme: dark;
+    }
+
+    body {
+      font-family: var(--font-en);
+      background-color: var(--bg-base);
+      color: var(--text-main);
+      line-height: 1.55;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(200, 0, 54, 0.12) 0px, transparent 45%),
+        radial-gradient(at 100% 20%, rgba(91, 179, 0, 0.09) 0px, transparent 50%),
+        radial-gradient(at 50% 65%, rgba(217, 119, 6, 0.06) 0px, transparent 45%),
+        radial-gradient(at 90% 95%, rgba(200, 0, 54, 0.09) 0px, transparent 45%);
+      background-attachment: fixed;
+    }
+
+    html[dir="rtl"] body {
+      font-family: var(--font-ar);
+      text-align: right;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* Arka Plan Ortam Işıkları */
+    .ambient-glow {
+      position: fixed;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      filter: blur(140px);
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.4;
+    }
+    .glow-1 { top: -120px; left: -120px; background: var(--brand-red); }
+    .glow-2 { top: 40%; right: -150px; background: var(--brand-green-bright); }
+    .glow-3 { bottom: -100px; left: 25%; background: var(--brand-amber); }
+
+    .container {
+      width: 100%;
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Buzlu Cam Kartları */
+    .glass-box {
+      background: var(--bg-glass-card);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.09);
+      transition: var(--transition);
+      position: relative;
+    }
+    .glass-box:hover {
+      border-color: var(--border-glass-hover);
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: var(--radius-full);
+      font-size: 0.75rem;
+      font-weight: 600;
+      backdrop-filter: blur(8px);
+      transition: var(--transition-fast);
+    }
+    .badge-red {
+      background: var(--brand-red-tint);
+      color: #FFA5BA;
+      border: 1px solid rgba(200, 0, 54, 0.35);
+    }
+    .badge-green {
+      background: var(--brand-green-tint);
+      color: #9BF04D;
+      border: 1px solid rgba(91, 179, 0, 0.35);
+    }
+
+    /* Tipografi */
+    .section-head {
+      margin-bottom: 1.75rem;
+    }
+    .section-title {
+      font-size: 1.55rem;
+      font-weight: 800;
+      color: var(--text-white);
+      letter-spacing: -0.02em;
+      margin-bottom: 0.35rem;
+    }
+    .section-desc {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      max-width: 680px;
+      line-height: 1.55;
+    }
+
+    /* Butonlar */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-weight: 600;
+      font-size: 0.85rem;
+      padding: 0.65rem 1.35rem;
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: var(--transition);
+      white-space: nowrap;
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--brand-red) 0%, #B0002E 100%);
+      color: var(--text-white);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 15px var(--brand-red-glow), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    }
+    .btn-primary:hover {
+      box-shadow: 0 6px 25px rgba(200, 0, 54, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+      transform: translateY(-2px);
+    }
+    .btn-glass {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-white);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(12px);
+    }
+    .btn-glass:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.25);
+      transform: translateY(-2px);
+    }
+
+    /* Üst Bar */
+    .site-header {
+      position: sticky;
+      top: 0.75rem;
+      z-index: 1000;
+      margin-bottom: 1.5rem;
+    }
+    .header-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 62px;
+      padding: 0 1.25rem;
+      background: rgba(15, 23, 42, 0.8);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-full);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    }
+    .brand-logo img {
+      height: 38px;
+      width: auto;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 1.35rem;
+    }
+    .nav-link {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      transition: var(--transition-fast);
+      position: relative;
+      cursor: pointer;
+    }
+    .nav-link:hover {
+      color: var(--text-white);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .lang-toggle {
+      display: flex;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-full);
+      padding: 2px;
+    }
+    .lang-btn {
+      background: transparent;
+      border: none;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.25rem 0.65rem;
+      border-radius: var(--radius-full);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: var(--transition-fast);
+    }
+    .lang-btn.active {
+      background: var(--brand-red);
+      color: var(--text-white);
+      box-shadow: 0 2px 8px var(--brand-red-glow);
+    }
+
+    .burger-btn {
+      display: none;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-white);
+      font-size: 1rem;
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Mobil Çekmece */
+    .mobile-drawer {
+      position: fixed;
+      top: 0;
+      right: -300px;
+      width: 290px;
+      height: 100vh;
+      background: rgba(10, 15, 28, 0.95);
+      backdrop-filter: blur(25px);
+      -webkit-backdrop-filter: blur(25px);
+      border-left: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: -10px 0 35px rgba(0, 0, 0, 0.7);
+      z-index: 2000;
+      padding: 1.75rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: right 0.25s ease;
+    }
+    html[dir="rtl"] .mobile-drawer {
+      right: auto;
+      left: -300px;
+      border-left: none;
+      border-right: 1px solid rgba(255, 255, 255, 0.1);
+      transition: left 0.25s ease;
+    }
+    .mobile-drawer.open { right: 0; }
+    html[dir="rtl"] .mobile-drawer.open { left: 0; right: auto; }
+    .drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(3px);
+      z-index: 1999;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+    .drawer-overlay.open { opacity: 1; pointer-events: auto; }
+    .drawer-item {
+      padding: 0.65rem 0.85rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-main);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      cursor: pointer;
+      transition: var(--transition-fast);
+    }
+    .drawer-item:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-white);
+    }
+
+    /* Hero Bölümü */
+    .hero {
+      padding: 2rem 0 1.5rem;
+    }
+    .hero-card {
+      background: linear-gradient(135deg, rgba(200, 0, 54, 0.08) 0%, rgba(15, 23, 42, 0.6) 45%, rgba(91, 179, 0, 0.07) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-lg);
+      padding: 2.25rem 2rem;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    }
+    .hero-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--brand-gradient);
+    }
+    .hero-title {
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1.25;
+      color: var(--text-white);
+      letter-spacing: -0.025em;
+      margin-bottom: 0.75rem;
+      max-width: 820px;
+    }
+    .hero-title .text-red {
+      background: linear-gradient(135deg, #FF406E 0%, #C80036 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero-title .text-green {
+      background: linear-gradient(135deg, #7BE41E 0%, #4E9B18 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero-desc {
+      font-size: 0.925rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      max-width: 780px;
+      margin-bottom: 1.5rem;
+    }
+    .hero-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.75rem;
+      flex-wrap: wrap;
+    }
+
+    .metrics-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.85rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .m-item {
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: var(--radius-md);
+      padding: 0.75rem 1rem;
+      transition: var(--transition-fast);
+    }
+    .m-item:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(255, 255, 255, 0.15);
+      transform: translateY(-2px);
+    }
+    .m-val {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--text-white);
+      line-height: 1;
+      margin-bottom: 0.25rem;
+    }
+    .m-lbl {
+      font-size: 0.725rem;
+      color: var(--text-dim);
+      font-weight: 600;
+    }
+
+    .section-wrap {
+      padding: 2.25rem 0;
+    }
+
+    /* 5 Stratejik Değer */
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .pillar-card {
+      background: var(--bg-glass-card);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+      backdrop-filter: blur(16px);
+      transition: var(--transition);
+      position: relative;
+    }
+    .pillar-card:hover {
+      background: var(--bg-glass-hover);
+      border-color: rgba(200, 0, 54, 0.35);
+      transform: translateY(-3px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    }
+    .pillar-card.green-theme:hover {
+      border-color: rgba(91, 179, 0, 0.35);
+    }
+    .p-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      margin-bottom: 0.85rem;
+      transition: var(--transition);
+    }
+    .pillar-card:hover .p-icon {
+      transform: scale(1.08);
+    }
+    .p-icon.red-i {
+      background: var(--brand-red-tint);
+      color: #FF5E85;
+      border: 1px solid rgba(200, 0, 54, 0.25);
+    }
+    .p-icon.green-i {
+      background: var(--brand-green-tint);
+      color: var(--brand-green-bright);
+      border: 1px solid rgba(91, 179, 0, 0.25);
+    }
+    .p-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-white);
+      margin-bottom: 0.35rem;
+    }
+    .p-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Kurucu Kartı */
+    .founder-card {
+      display: grid;
+      grid-template-columns: 290px 1fr;
+      gap: 1.75rem;
+    }
+    .f-left {
+      border-right: 1px solid rgba(255, 255, 255, 0.08);
+      padding-right: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    html[dir="rtl"] .f-left {
+      border-right: none;
+      border-left: 1px solid rgba(255, 255, 255, 0.08);
+      padding-right: 0;
+      padding-left: 1.5rem;
+    }
+    .f-avatar-row {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      margin-bottom: 1rem;
+    }
+    .f-avatar {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: var(--brand-gradient);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.35rem;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+    .f-name {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--text-white);
+      line-height: 1.1;
+    }
+    .f-tag {
+      font-size: 0.775rem;
+      font-weight: 600;
+      color: var(--brand-green-bright);
+    }
+    .cred-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      margin-bottom: 1rem;
+    }
+    .cred-item {
+      font-size: 0.775rem;
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 0.35rem 0.65rem;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+    .cred-item i { color: var(--brand-green-bright); font-size: 0.7rem; }
+
+    .f-bio {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    .comp-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.45rem;
+    }
+    .comp-item {
+      font-size: 0.775rem;
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      padding: 0.45rem 0.65rem;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.4rem;
+      transition: var(--transition-fast);
+    }
+    .comp-item:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(255, 255, 255, 0.12);
+    }
+    .comp-item i {
+      color: #FF5E85;
+      font-size: 0.7rem;
+      margin-top: 0.25rem;
+      flex-shrink: 0;
+    }
+
+    /* ==========================================================
+       ETKİLEŞİMLİ CAM SLIDER (CAROUSEL)
+       ========================================================== */
+    .slider-container {
+      position: relative;
+      margin-top: 1rem;
+    }
+    .slider-track-wrap {
+      overflow: hidden;
+      border-radius: var(--radius-lg);
+    }
+    .slider-track {
+      display: flex;
+      gap: 1rem;
+      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      will-change: transform;
+    }
+
+    .slide-card {
+      flex: 0 0 calc(33.333% - 0.67rem);
+      min-width: 280px;
+      background: var(--bg-glass-card);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--radius-md);
+      padding: 1.35rem;
+      backdrop-filter: blur(16px);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .slide-card:hover {
+      background: var(--bg-glass-hover);
+      border-color: rgba(255, 255, 255, 0.25);
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    }
+    .s-head {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      margin-bottom: 0.75rem;
+    }
+    .s-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.95rem;
+      flex-shrink: 0;
+    }
+    .s-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-white);
+      line-height: 1.3;
+    }
+    .s-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+    }
+    .s-bullet {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.45rem;
+    }
+    .s-bullet::before {
+      content: "•";
+      color: #FF5E85;
+      font-size: 1rem;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .slide-card:nth-child(even) .s-bullet::before {
+      color: var(--brand-green-bright);
+    }
+
+    /* Slider Navigasyonu (Oklar & Noktalar) */
+    .slider-nav-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 1.25rem;
+    }
+    .slider-dots {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+    .dot-btn {
+      width: 8px;
+      height: 8px;
+      border-radius: var(--radius-full);
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      cursor: pointer;
+      transition: var(--transition-fast);
+    }
+    .dot-btn.active {
+      width: 24px;
+      background: var(--brand-red);
+      box-shadow: 0 0 10px var(--brand-red-glow);
+    }
+    .slider-arrows {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .arrow-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: var(--text-white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .arrow-btn:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(255, 255, 255, 0.25);
+      transform: scale(1.05);
+    }
+    .arrow-btn:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    /* Karbon Bölümü */
+    .carbon-box {
+      background: linear-gradient(135deg, rgba(9, 30, 19, 0.6) 0%, rgba(15, 23, 42, 0.75) 100%);
+      border: 1px solid rgba(91, 179, 0, 0.25);
+    }
+    .carbon-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .c-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: var(--radius-md);
+      padding: 1.15rem;
+      transition: var(--transition);
+    }
+    .c-card:hover {
+      background: rgba(255, 255, 255, 0.06);
+      border-color: rgba(91, 179, 0, 0.4);
+      transform: translateY(-3px);
+    }
+    .c-card h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-white);
+      margin-bottom: 0.35rem;
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+    .c-card h4 i { color: var(--brand-green-bright); }
+    .c-card p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Kariyer & Müşteriler */
+    .timeline-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.85rem;
+      margin-bottom: 1.25rem;
+    }
+    .time-card {
+      background: var(--bg-glass-card);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--radius-md);
+      padding: 1rem;
+      transition: var(--transition-fast);
+    }
+    .time-card:hover {
+      background: var(--bg-glass-hover);
+      border-color: rgba(255, 255, 255, 0.18);
+      transform: translateY(-2px);
+    }
+    .t-year {
+      font-size: 0.75rem;
+      font-weight: 800;
+      color: #FF5E85;
+      background: rgba(200, 0, 54, 0.15);
+      padding: 0.2rem 0.55rem;
+      border-radius: var(--radius-full);
+      display: inline-block;
+      margin-bottom: 0.5rem;
+    }
+    .time-card:nth-child(even) .t-year {
+      color: var(--brand-green-bright);
+      background: rgba(91, 179, 0, 0.15);
+    }
+    .t-title {
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--text-white);
+      margin-bottom: 0.3rem;
+    }
+    .t-desc {
+      font-size: 0.775rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    .roster-box {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: var(--radius-md);
+      padding: 0.85rem 1.15rem;
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      flex-wrap: wrap;
+    }
+    .roster-lbl {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .client-badge {
+      font-size: 0.775rem;
+      font-weight: 600;
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 0.25rem 0.65rem;
+      border-radius: var(--radius-full);
+      transition: var(--transition-fast);
+    }
+    .client-badge:hover {
+      background: rgba(255, 255, 255, 0.09);
+      border-color: var(--brand-red);
+      color: #FFA5BA;
+      transform: translateY(-1px);
+    }
+
+    /* Partnerlik Modeli */
+    .partner-card {
+      background: var(--bg-glass-card);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+    }
+    .lifecycle-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      padding-bottom: 1.25rem;
+      margin-bottom: 1.25rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .l-step {
+      display: flex;
+      flex-direction: column;
+    }
+    .l-num {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: var(--brand-red);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0.5rem;
+      box-shadow: 0 2px 8px var(--brand-red-glow);
+    }
+    .l-step:nth-child(2) .l-num { background: var(--brand-amber); box-shadow: 0 2px 8px rgba(217, 119, 6, 0.4); }
+    .l-step:nth-child(3) .l-num { background: var(--brand-green); box-shadow: 0 2px 8px var(--brand-green-glow); }
+    .l-title {
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--text-white);
+      margin-bottom: 0.25rem;
+    }
+    .l-desc {
+      font-size: 0.775rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    .partner-grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .part-col {
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.15rem;
+    }
+    .part-col h4 {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text-white);
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .part-col ul {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+    .part-col li {
+      font-size: 0.775rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.4rem;
+      line-height: 1.4;
+    }
+    .part-col li i {
+      margin-top: 0.25rem;
+      font-size: 0.65rem;
+      flex-shrink: 0;
+    }
+
+    /* İletişim */
+    .contact-card {
+      display: grid;
+      grid-template-columns: 1fr 1.25fr;
+      gap: 2rem;
+      align-items: center;
+    }
+    .contact-left h3 {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--text-white);
+      margin-bottom: 0.5rem;
+    }
+    .contact-left p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+      margin-bottom: 1.25rem;
+    }
+    .c-pill-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+    .c-pill {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      padding: 0.65rem 0.85rem;
+      border-radius: var(--radius-md);
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      font-size: 0.825rem;
+      font-weight: 600;
+      color: var(--text-main);
+      transition: var(--transition-fast);
+    }
+    .c-pill:hover {
+      background: rgba(255, 255, 255, 0.06);
+      border-color: rgba(255, 255, 255, 0.18);
+      transform: translateX(3px);
+    }
+    html[dir="rtl"] .c-pill:hover {
+      transform: translateX(-3px);
+    }
+    .c-pill i { color: #FF5E85; font-size: 0.85rem; }
+    .c-pill:nth-child(2) i { color: var(--brand-green-bright); }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+    }
+    .col-full { grid-column: span 2; }
+    .glass-input, .glass-select, .glass-textarea {
+      width: 100%;
+      padding: 0.65rem 0.85rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-sm);
+      font-family: inherit;
+      font-size: 0.825rem;
+      color: var(--text-white);
+      background: rgba(255, 255, 255, 0.04);
+      backdrop-filter: blur(12px);
+      transition: var(--transition-fast);
+    }
+    .glass-input:focus, .glass-select:focus, .glass-textarea:focus {
+      outline: none;
+      border-color: var(--brand-red);
+      background: rgba(255, 255, 255, 0.08);
+      box-shadow: 0 0 15px var(--brand-red-glow);
+    }
+    .glass-textarea {
+      resize: vertical;
+      min-height: 75px;
+    }
+
+    /* Alt Bilgi */
+    .site-footer {
+      padding: 2rem 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      font-size: 0.8rem;
+      color: var(--text-dim);
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+      .founder-card, .contact-card { grid-template-columns: 1fr; }
+      .f-left { border-right: none; border-bottom: 1px solid rgba(255, 255, 255, 0.08); padding-right: 0; padding-bottom: 1.25rem; }
+      html[dir="rtl"] .f-left { border-left: none; padding-left: 0; }
+      .slide-card { flex: 0 0 calc(50% - 0.5rem); }
+      .carbon-grid, .lifecycle-row { grid-template-columns: repeat(2, 1fr); }
+      .timeline-grid { grid-template-columns: repeat(2, 1fr); }
+      .partner-grid-2 { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .burger-btn { display: flex; }
+      .metrics-strip { grid-template-columns: repeat(2, 1fr); }
+      .slide-card { flex: 0 0 100%; }
+      .carbon-grid, .lifecycle-row { grid-template-columns: 1fr; }
+      .timeline-grid { grid-template-columns: 1fr; }
+      .form-grid { grid-template-columns: 1fr; }
+      .col-full { grid-column: span 1; }
+      .hero-title { font-size: 1.55rem; }
+      .header-bar { padding: 0 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Ambient Glow Orbs -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Mobil Çekmece Katmanı -->
+  <div class="drawer-overlay" id="drawerOverlay" onclick="toggleDrawer()"></div>
+
+  <!-- Mobil Çekmece Menüsü -->
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div>
+      <div style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <img src="https://ctod.tr/wp/wp-content/uploads/2026/09/nexus-logo.png" alt="Nexus Logo" style="height: 32px;" />
+        <button onclick="toggleDrawer()" style="background:none; border:none; color:var(--text-muted); font-size:1.25rem; cursor:pointer;"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <nav style="display: flex; flex-direction: column; gap: 0.4rem; margin-top: 1.25rem;">
+        <div class="drawer-item" onclick="scrollToSec('about'); toggleDrawer();"><i class="fa-solid fa-compass" style="color:#FF5E85;"></i> <span data-i18n="navAbout">About Nexus</span></div>
+        <div class="drawer-item" onclick="scrollToSec('leadership'); toggleDrawer();"><i class="fa-solid fa-user-shield" style="color:var(--brand-green-bright);"></i> <span data-i18n="navLeadership">Leadership</span></div>
+        <div class="drawer-item" onclick="scrollToSec('services'); toggleDrawer();"><i class="fa-solid fa-cubes-stacked" style="color:#FF5E85;"></i> <span data-i18n="navServices">Advisory Services</span></div>
+        <div class="drawer-item" onclick="scrollToSec('sustainability'); toggleDrawer();"><i class="fa-solid fa-leaf" style="color:var(--brand-green-bright);"></i> <span data-i18n="navSustainability">Carbon &amp; ESG</span></div>
+        <div class="drawer-item" onclick="scrollToSec('timeline'); toggleDrawer();"><i class="fa-solid fa-timeline" style="color:#FF5E85;"></i> <span data-i18n="navTrackRecord">Track Record</span></div>
+        <div class="drawer-item" onclick="scrollToSec('partner-model'); toggleDrawer();"><i class="fa-solid fa-handshake" style="color:var(--brand-green-bright);"></i> <span data-i18n="navPartnerModel">Partner Model</span></div>
+        <div class="drawer-item" onclick="scrollToSec('contact'); toggleDrawer();"><i class="fa-solid fa-envelope" style="color:#FF5E85;"></i> <span data-i18n="navContact">Contact</span></div>
+      </nav>
+    </div>
+
+    <div style="font-size: 0.75rem; color: var(--text-dim); line-height: 1.5;">
+      <div>Nexus Energy Resources FZE</div>
+      <div><a href="mailto:arda.y@nexenr.com" style="color: #FF5E85;">arda.y@nexenr.com</a></div>
+      <div>www.nexenr.com</div>
+    </div>
+  </aside>
+
+  <!-- Üst Kayan Bar (Sabit Navigasyon + Burger Menü) -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-bar">
+        <a href="#" class="brand-logo">
+          <img src="https://ctod.tr/wp/wp-content/uploads/2026/09/nexus-logo.png" alt="Nexus Energy Resources" />
+        </a>
+
+        <nav class="nav-links">
+          <a class="nav-link" onclick="scrollToSec('about')" data-i18n="navAbout">About</a>
+          <a class="nav-link" onclick="scrollToSec('leadership')" data-i18n="navLeadership">Leadership</a>
+          <a class="nav-link" onclick="scrollToSec('services')" data-i18n="navServices">Services</a>
+          <a class="nav-link" onclick="scrollToSec('sustainability')" data-i18n="navSustainability">Carbon &amp; ESG</a>
+          <a class="nav-link" onclick="scrollToSec('timeline')" data-i18n="navTrackRecord">Track Record</a>
+          <a class="nav-link" onclick="scrollToSec('partner-model')" data-i18n="navPartnerModel">Partner Model</a>
+        </nav>
+
+        <div class="header-actions">
+          <div class="lang-toggle">
+            <button type="button" class="lang-btn active" id="btnEn" onclick="setLang('en')">EN</button>
+            <button type="button" class="lang-btn" id="btnAr" onclick="setLang('ar')">العربية</button>
+          </div>
+
+          <button class="btn btn-primary" onclick="scrollToSec('contact')" style="padding: 0.45rem 0.95rem; font-size: 0.775rem;">
+            <span data-i18n="btnInquire">Contact</span>
+          </button>
+
+          <button class="burger-btn" onclick="toggleDrawer()" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Hero Bölümü -->
+    <section class="hero">
+      <div class="hero-card">
+        <div style="display: flex; gap: 0.65rem; margin-bottom: 0.85rem; flex-wrap: wrap;">
+          <div class="badge badge-red">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span data-i18n="heroBadge">Senior-Led • Sector-Experienced • Commercially Focused</span>
+          </div>
+          <div class="badge badge-green">
+            <i class="fa-solid fa-award"></i>
+            <span>FCCA &amp; GRI Certified Advisory</span>
+          </div>
+        </div>
+
+        <h1 class="hero-title" data-i18n="heroTitle">
+          Senior Advisory for <span class="text-red">Upstream Oil &amp; Gas</span>, <span class="text-green">Natural Resources</span> &amp; Energy
+        </h1>
+
+        <p class="hero-desc" data-i18n="heroDesc">
+          Nexus Energy Resources FZE delivers senior financial, commercial, and strategic advisory support. Combining more than 25 years across audit, assurance, finance, commercial management, and operational leadership — with over 20 years focused on producing assets, PSC/TSC arrangements, and field economics.
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn btn-primary" onclick="scrollToSec('services')">
+            <span data-i18n="btnExploreServices">Explore Advisory Services</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          <button class="btn btn-glass" onclick="scrollToSec('partner-model')">
+            <i class="fa-solid fa-handshake"></i>
+            <span data-i18n="btnPartnerModel">Collaborative Delivery Model</span>
+          </button>
+        </div>
+
+        <div class="metrics-strip">
+          <div class="m-item">
+            <div class="m-val">25+ Yrs</div>
+            <div class="m-lbl" data-i18n="m1">Audit &amp; Commercial Leadership</div>
+          </div>
+          <div class="m-item">
+            <div class="m-val">20+ Yrs</div>
+            <div class="m-lbl" data-i18n="m2">Upstream Energy Sector Depth</div>
+          </div>
+          <div class="m-item">
+            <div class="m-val">145k BOPD</div>
+            <div class="m-lbl" data-i18n="m3">Field Production Scale Managed</div>
+          </div>
+          <div class="m-item">
+            <div class="m-val">FCCA &amp; GRI</div>
+            <div class="m-lbl" data-i18n="m4">Global Certified Credentials</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 Stratejik Değer -->
+    <section class="section-wrap" id="about">
+      <div class="section-head">
+        <div class="badge badge-green" style="margin-bottom: 0.4rem;" data-i18n="aboutBadge">Strategic Perspective</div>
+        <h2 class="section-title" data-i18n="aboutTitle">Connecting Finance, Operations, Contracts &amp; Governance</h2>
+        <p class="section-desc" data-i18n="aboutDesc">Nexus approaches assignments by connecting financial analysis, contracts, operations, controls, and management decision-making rather than treating each workstream in isolation.</p>
+      </div>
+
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <div class="p-icon red-i"><i class="fa-solid fa-oil-well"></i></div>
+          <h3 class="p-title" data-i18n="p1T">Upstream Depth</h3>
+          <p class="p-desc" data-i18n="p1D">UK and global asset audit to executive leadership in producing PSC operator, refining, and oilfield services.</p>
+        </div>
+        <div class="pillar-card green-theme">
+          <div class="p-icon green-i"><i class="fa-solid fa-chart-line"></i></div>
+          <h3 class="p-title" data-i18n="p2T">Commercial Perspective</h3>
+          <p class="p-desc" data-i18n="p2D">Connecting fiscal models, production costs, and commercial contracts into decision-useful intelligence.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="p-icon red-i"><i class="fa-solid fa-user-tie"></i></div>
+          <h3 class="p-title" data-i18n="p3T">Senior-Led Delivery</h3>
+          <p class="p-desc" data-i18n="p3D">Direct senior involvement from initial scoping through execution, review, and board-level communication.</p>
+        </div>
+        <div class="pillar-card green-theme">
+          <div class="p-icon green-i"><i class="fa-solid fa-helmet-safety"></i></div>
+          <h3 class="p-title" data-i18n="p4T">Field-Informed Advice</h3>
+          <p class="p-desc" data-i18n="p4D">Recommendations grounded in how producing assets, contractual agreements, and host-government interfaces work in practice.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="p-icon red-i"><i class="fa-solid fa-building-columns"></i></div>
+          <h3 class="p-title" data-i18n="p5T">Partner-Ready Model</h3>
+          <p class="p-desc" data-i18n="p5D">A flexible model that complements an established firm’s client platform without permanent recruitment overhead.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Liderlik & Profesyonel Temel -->
+    <section class="section-wrap" id="leadership">
+      <div class="section-head">
+        <div class="badge badge-red" style="margin-bottom: 0.4rem;" data-i18n="leadBadge">Professional Foundation</div>
+        <h2 class="section-title" data-i18n="leadTitle">Leadership Grounded in Sector Realities</h2>
+        <p class="section-desc" data-i18n="leadDesc">Operates through a founder-led model, bringing 25+ years across Tier-1 professional services and direct upstream operator leadership.</p>
+      </div>
+
+      <div class="glass-box founder-card">
+        <div class="f-left">
+          <div>
+            <div class="f-avatar-row">
+              <div class="f-avatar"><i class="fa-solid fa-user-shield"></i></div>
+              <div>
+                <div class="f-name">Arda Yakıcı</div>
+                <div class="f-tag" data-i18n="fRole">Founder &amp; Lead Consultant</div>
+                <div style="font-size: 0.725rem; color: var(--text-dim);">CPA | FCCA | GRI Certified</div>
+              </div>
+            </div>
+
+            <div class="cred-list">
+              <div class="cred-item"><i class="fa-solid fa-award"></i> <span>Fellow of ACCA (FCCA - UK)</span></div>
+              <div class="cred-item"><i class="fa-solid fa-stamp"></i> <span>Certified Public Accountant (CPA)</span></div>
+              <div class="cred-item"><i class="fa-solid fa-leaf"></i> <span>GRI Certified Sustainability Professional</span></div>
+              <div class="cred-item"><i class="fa-solid fa-graduation-cap"></i> <span>MSc Financial Management (Robert Gordon Univ, UK)</span></div>
+            </div>
+          </div>
+
+          <div style="font-size: 0.75rem; color: var(--text-dim);">
+            <i class="fa-solid fa-map-location-dot" style="color: #FF5E85;"></i> UK • Türkiye • Middle East
+          </div>
+        </div>
+
+        <div>
+          <p class="f-bio" data-i18n="fBio">
+            Arda has 25+ years of international professional experience. At PwC UK, he specialised in upstream oil and gas audit, valuation, due diligence, and PSC/TSC environments. He then spent ten years as Deputy General Manager and Head of Finance, Commercial &amp; Supply Chain for Taq Taq Operating Company, managing field expansion from 30k to 145k BOPD under a PSC. In 2023, he established Nexus Energy Resources FZE to deliver senior financial and management advisory.
+          </p>
+
+          <div style="font-size: 0.8rem; font-weight: 700; color: var(--text-white); margin-bottom: 0.45rem;" data-i18n="fCompHeading">
+            Core Professional Expertise
+          </div>
+          <div class="comp-grid">
+            <div class="comp-item"><i class="fa-solid fa-check"></i> <span data-i18n="cp1">Upstream oil &amp; gas finance, accounting &amp; IFRS</span></div>
+            <div class="comp-item"><i class="fa-solid fa-check"></i> <span data-i18n="cp2">Fiscal modelling, budgeting &amp; field economics</span></div>
+            <div class="comp-item"><i class="fa-solid fa-check"></i> <span data-i18n="cp3">PSC &amp; TSC accounting, cost recovery &amp; JV governance</span></div>
+            <div class="comp-item"><i class="fa-solid fa-check"></i> <span data-i18n="cp4">Internal audit, internal controls &amp; risk management</span></div>
+            <div class="comp-item"><i class="fa-solid fa-check"></i> <span data-i18n="cp5">Commercial contracts, tendering &amp; supply chain</span></div>
+            <div class="comp-item"><i class="fa-solid fa-check"></i> <span data-i18n="cp6">Host-government &amp; stakeholder interfaces</span></div>
+            <div class="comp-item"><i class="fa-solid fa-check"></i> <span data-i18n="cp7">Valuation, due diligence &amp; M&amp;A support</span></div>
+            <div class="comp-item"><i class="fa-solid fa-check"></i> <span data-i18n="cp8">Multidisciplinary field &amp; project leadership</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 Temel Hizmet Alanı & Etkileşimli Slider -->
+    <section class="section-wrap" id="services">
+      <div style="display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 1rem;" class="section-head">
+        <div>
+          <div class="badge badge-green" style="margin-bottom: 0.4rem;" data-i18n="servBadge">Interactive Portfolio</div>
+          <h2 class="section-title" data-i18n="servTitle">Core Upstream Oil &amp; Gas and Energy Services</h2>
+          <p class="section-desc" data-i18n="servDesc">Slide or swipe through our 6 senior advisory capability domains.</p>
+        </div>
+
+        <div class="slider-arrows">
+          <button class="arrow-btn" id="prevBtn" onclick="slideServices(-1)" title="Previous Slide">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="arrow-btn" id="nextBtn" onclick="slideServices(1)" title="Next Slide">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="slider-container" id="sliderContainer">
+        <div class="slider-track-wrap">
+          <div class="slider-track" id="sliderTrack">
+
+            <!-- Slide 1 -->
+            <div class="slide-card">
+              <div>
+                <div class="s-head">
+                  <div class="s-icon" style="background: rgba(200,0,54,0.15); color:#FF5E85;"><i class="fa-solid fa-chart-line"></i></div>
+                  <h3 class="s-title" data-i18n="sv1T">Upstream Financial &amp; Commercial</h3>
+                </div>
+                <div class="s-list">
+                  <div class="s-bullet" data-i18n="sv1b1">Senior finance &amp; commercial support for operators and project teams.</div>
+                  <div class="s-bullet" data-i18n="sv1b2">Cash flow, treasury, budgeting, and performance oversight.</div>
+                  <div class="s-bullet" data-i18n="sv1b3">Integration of financial analysis with field costs and production targets.</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide-card">
+              <div>
+                <div class="s-head">
+                  <div class="s-icon" style="background: rgba(91,179,0,0.15); color:var(--brand-green-bright);"><i class="fa-solid fa-file-contract"></i></div>
+                  <h3 class="s-title" data-i18n="sv2T">PSC, TSC &amp; Cost Recovery</h3>
+                </div>
+                <div class="s-list">
+                  <div class="s-bullet" data-i18n="sv2b1">PSC &amp; TSC interpretation, fiscal terms, and contractor-government interfaces.</div>
+                  <div class="s-bullet" data-i18n="sv2b2">Petroleum cost recovery allocation, joint accounting, and audit support.</div>
+                  <div class="s-bullet" data-i18n="sv2b3">Joint-venture governance, partner reporting, and committee support.</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide-card">
+              <div>
+                <div class="s-head">
+                  <div class="s-icon" style="background: rgba(200,0,54,0.15); color:#FF5E85;"><i class="fa-solid fa-calculator"></i></div>
+                  <h3 class="s-title" data-i18n="sv3T">Field Economics &amp; Planning</h3>
+                </div>
+                <div class="s-list">
+                  <div class="s-bullet" data-i18n="sv3b1">Financial and fiscal modelling, budgets, forecasts, and long-range plans.</div>
+                  <div class="s-bullet" data-i18n="sv3b2">Price, production, capex sensitivity and multi-scenario analyses.</div>
+                  <div class="s-bullet" data-i18n="sv3b3">Field and project economics for management, boards, and transactions.</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="slide-card">
+              <div>
+                <div class="s-head">
+                  <div class="s-icon" style="background: rgba(91,179,0,0.15); color:var(--brand-green-bright);"><i class="fa-solid fa-truck-ramp-box"></i></div>
+                  <h3 class="s-title" data-i18n="sv4T">Contracts &amp; Supply Chain</h3>
+                </div>
+                <div class="s-list">
+                  <div class="s-bullet" data-i18n="sv4b1">Tender strategy, bid evaluation, contracting, and commercial negotiations.</div>
+                  <div class="s-bullet" data-i18n="sv4b2">Contract, procurement, supply-chain, and cost reviews.</div>
+                  <div class="s-bullet" data-i18n="sv4b3">Claims, change orders, supplier performance, and cost optimisation.</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="slide-card">
+              <div>
+                <div class="s-head">
+                  <div class="s-icon" style="background: rgba(200,0,54,0.15); color:#FF5E85;"><i class="fa-solid fa-clipboard-check"></i></div>
+                  <h3 class="s-title" data-i18n="sv5T">Audit &amp; Operational Assurance</h3>
+                </div>
+                <div class="s-list">
+                  <div class="s-bullet" data-i18n="sv5b1">Internal audit, control reviews, and business-process improvement.</div>
+                  <div class="s-bullet" data-i18n="sv5b2">Cost-recovery, contract, and supply-chain targeted audits.</div>
+                  <div class="s-bullet" data-i18n="sv5b3">Governance, data reliability, risk management, and corrective-action plans.</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 6 -->
+            <div class="slide-card">
+              <div>
+                <div class="s-head">
+                  <div class="s-icon" style="background: rgba(91,179,0,0.15); color:var(--brand-green-bright);"><i class="fa-solid fa-scale-balanced"></i></div>
+                  <h3 class="s-title" data-i18n="sv6T">Transactions &amp; Sector Strategy</h3>
+                </div>
+                <div class="s-list">
+                  <div class="s-bullet" data-i18n="sv6b1">Buy-side and sell-side due diligence, valuation, and business-plan review.</div>
+                  <div class="s-bullet" data-i18n="sv6b2">Licensing rounds, market entry intelligence, and strategic advisory.</div>
+                  <div class="s-bullet" data-i18n="sv6b3">Specialist training in oil and gas finance, accounting, and PSCs.</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="slider-nav-row">
+          <div class="slider-dots" id="sliderDots"></div>
+          <div style="font-size: 0.75rem; color: var(--text-dim);" data-i18n="sliderTip">
+            Swipe or use arrows to explore
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Karbon & Sürdürülebilirlik -->
+    <section class="section-wrap" id="sustainability">
+      <div class="glass-box carbon-box">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem;">
+          <div>
+            <div class="badge" style="background: rgba(91, 179, 0, 0.15); color: #9BF04D; border: 1px solid rgba(91, 179, 0, 0.35); margin-bottom: 0.3rem;">
+              <i class="fa-solid fa-leaf"></i> <span data-i18n="sustBadge">Energy Transition &amp; ESG</span>
+            </div>
+            <h3 style="font-size: 1.25rem; font-weight: 800; color: #fff;" data-i18n="sustTitle">Complementary Carbon &amp; Sustainability Advisory</h3>
+          </div>
+          <div style="font-size: 0.8rem; color: #9BF04D; font-weight: 600;">
+            <i class="fa-solid fa-circle-check"></i> GRI Certified Sustainability Professional
+          </div>
+        </div>
+
+        <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.55;" data-i18n="sustDesc">
+          Carbon-footprint and sustainability services complement the core financial offering, backed by the same disciplined approach to scoping, evidence, controls, and defensible reporting.
+        </p>
+
+        <div class="carbon-grid">
+          <div class="c-card">
+            <h4><i class="fa-solid fa-cloud-arrow-down"></i> <span data-i18n="s1Head">Carbon &amp; GHG Advisory</span></h4>
+            <p data-i18n="s1Body">Corporate &amp; facility GHG inventories, organisational boundaries, source screening, and calculation support based on the GHG Protocol.</p>
+          </div>
+          <div class="c-card">
+            <h4><i class="fa-solid fa-file-shield"></i> <span data-i18n="s2Head">Sustainability &amp; GRI Reporting</span></h4>
+            <p data-i18n="s2Body">Reporting strategy, CSRD/GRI readiness, impact and material-topic assessment aligned with Global Reporting Initiative Standards.</p>
+          </div>
+          <div class="c-card">
+            <h4><i class="fa-solid fa-arrows-to-circle"></i> <span data-i18n="s3Head">Integrated Governance</span></h4>
+            <p data-i18n="s3Body">Intersecting financial, operational, and sustainability decisions — energy transition feasibility, regulatory readiness, and board reporting.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kariyer Kilometre Taşları & Müşteriler -->
+    <section class="section-wrap" id="timeline">
+      <div class="section-head">
+        <div class="badge badge-red" style="margin-bottom: 0.4rem;" data-i18n="trBadge">Proven Track Record</div>
+        <h2 class="section-title" data-i18n="trTitle">Selected Career &amp; Advisory Experience</h2>
+        <p class="section-desc" data-i18n="trDesc">25+ years across international firms, producing operating assets, and dedicated energy advisory.</p>
+      </div>
+
+      <div class="timeline-grid">
+        <div class="time-card">
+          <span class="t-year">1999 – 2005</span>
+          <h4 class="t-title" data-i18n="t1T">Deloitte, Yaşar &amp; Postgraduate</h4>
+          <p class="t-desc" data-i18n="t1D">Audit experience across industrial and energy businesses; MSc in Financial Management from Robert Gordon University in Aberdeen, UK.</p>
+        </div>
+        <div class="time-card">
+          <span class="t-year">2005 – 2013</span>
+          <h4 class="t-title" data-i18n="t2T">PwC UK Upstream Oil &amp; Gas</h4>
+          <p class="t-desc" data-i18n="t2D">Senior Manager specialising in upstream oil and gas: audit, IPO readiness, due diligence, valuation, and PSC/TSC environments in the UK and globally.</p>
+        </div>
+        <div class="time-card">
+          <span class="t-year">2013 – 2023</span>
+          <h4 class="t-title" data-i18n="t3T">Taq Taq Operating Co (Operator)</h4>
+          <p class="t-desc" data-i18n="t3D">Deputy GM and Head of Finance, Commercial &amp; Supply Chain for producing oilfield; grew production from ~30k to 145k BOPD under a PSC.</p>
+        </div>
+        <div class="time-card">
+          <span class="t-year">2023 – Present</span>
+          <h4 class="t-title" data-i18n="t4T">Nexus Energy Resources FZE</h4>
+          <p class="t-desc" data-i18n="t4D">Senior-led advisory practice for upstream oil &amp; gas, oilfield services, and energy, with complementary GRI carbon advisory.</p>
+        </div>
+      </div>
+
+      <div class="roster-box">
+        <span class="roster-lbl" data-i18n="rTitle">Representative Clients Supported:</span>
+        <span class="client-badge">Shell UK Upstream</span>
+        <span class="client-badge">Eni UK</span>
+        <span class="client-badge">Canadian Natural Resources (CNR)</span>
+        <span class="client-badge">Genel Energy</span>
+        <span class="client-badge">PTTEP</span>
+        <span class="client-badge">World Fuel Services</span>
+        <span class="client-badge">Turkish Petroleum (TPAO)</span>
+      </div>
+    </section>
+
+    <!-- Partnerlik Modeli -->
+    <section class="section-wrap" id="partner-model">
+      <div class="section-head">
+        <div class="badge badge-green" style="margin-bottom: 0.4rem;" data-i18n="pmBadge">Strategic Partnership</div>
+        <h2 class="section-title" data-i18n="pmTitle">Collaborative Delivery Model</h2>
+        <p class="section-desc" data-i18n="pmDesc">Working alongside established accounting, assurance, and advisory firms (The "Partner Firm") to combine institutional reach with upstream sector depth.</p>
+      </div>
+
+      <div class="partner-card">
+        <div class="lifecycle-row">
+          <div class="l-step">
+            <div class="l-num">1</div>
+            <div class="l-title" data-i18n="ls1T">Origination &amp; Scoping</div>
+            <div class="l-desc" data-i18n="ls1D">Both parties originate opportunities. Nexus leads or supports technical scoping and proposal development under agreed client routes.</div>
+          </div>
+          <div class="l-step">
+            <div class="l-num">2</div>
+            <div class="l-title" data-i18n="ls2T">Technical Delivery &amp; Management</div>
+            <div class="l-desc" data-i18n="ls2D">Nexus leads financial/commercial analysis and models; Partner Firm provides partner oversight and local supporting staff.</div>
+          </div>
+          <div class="l-step">
+            <div class="l-num">3</div>
+            <div class="l-title" data-i18n="ls3T">Joint Client Outcome</div>
+            <div class="l-desc" data-i18n="ls3D">Integrated senior-led delivery under agreed branding, creating credible capacity without permanent recruitment overhead.</div>
+          </div>
+        </div>
+
+        <div class="partner-grid-2">
+          <div class="part-col">
+            <h4 data-i18n="pr1H"><i class="fa-solid fa-landmark" style="color: #FF5E85;"></i> The Partner Firm May Contribute:</h4>
+            <ul>
+              <li data-i18n="pr1i1"><i class="fa-solid fa-check"></i> Client access, market presence, and business-development channels.</li>
+              <li data-i18n="pr1i2"><i class="fa-solid fa-check"></i> Institutional credentials, contracting, and engagement administration.</li>
+              <li data-i18n="pr1i3"><i class="fa-solid fa-check"></i> Partner oversight, supporting staff, and wider advisory capabilities.</li>
+              <li data-i18n="pr1i4"><i class="fa-solid fa-check"></i> Quality, risk management, and client-acceptance processes.</li>
+            </ul>
+          </div>
+          <div class="part-col">
+            <h4 data-i18n="pr2H"><i class="fa-solid fa-gears" style="color: var(--brand-green-bright);"></i> Nexus Energy Resources May Contribute:</h4>
+            <ul>
+              <li data-i18n="pr2i1"><i class="fa-solid fa-check"></i> Sector opportunity assessment, scoping, and bespoke methodology.</li>
+              <li data-i18n="pr2i2"><i class="fa-solid fa-check"></i> Technical proposal input, pricing support, and project planning.</li>
+              <li data-i18n="pr2i3"><i class="fa-solid fa-check"></i> Senior financial, commercial, and technical execution.</li>
+              <li data-i18n="pr2i4"><i class="fa-solid fa-check"></i> Client project management, reports, fiscal models, and board decks.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- İletişim -->
+    <section class="section-wrap" id="contact">
+      <div class="glass-box contact-card">
+        <div class="contact-left">
+          <div class="badge badge-red" style="margin-bottom: 0.4rem;" data-i18n="cBadge">Direct Senior Engagement</div>
+          <h3 data-i18n="cTitle">Discuss an Advisory Assignment or Collaboration</h3>
+          <p data-i18n="cDesc">
+            Whether you are an upstream operator seeking high-impact commercial support, an investor evaluating energy assets, or an advisory firm seeking senior sector delivery capacity, we welcome a direct dialogue.
+          </p>
+
+          <div class="c-pill-list">
+            <a href="mailto:arda.y@nexenr.com" class="c-pill">
+              <i class="fa-solid fa-envelope"></i>
+              <span>arda.y@nexenr.com</span>
+            </a>
+            <a href="https://www.nexenr.com" target="_blank" class="c-pill">
+              <i class="fa-solid fa-globe"></i>
+              <span>www.nexenr.com</span>
+            </a>
+            <div class="c-pill">
+              <i class="fa-solid fa-building" style="color: var(--brand-amber);"></i>
+              <span>Nexus Energy Resources FZE</span>
+            </div>
+          </div>
+        </div>
+
+        <form id="contactForm" onsubmit="handleForm(event)">
+          <div class="form-grid">
+            <div>
+              <input type="text" id="nameInput" class="glass-input" required placeholder="Your Name *" />
+            </div>
+            <div>
+              <input type="email" id="emailInput" class="glass-input" required placeholder="Corporate Email *" />
+            </div>
+            <div>
+              <input type="text" id="companyInput" class="glass-input" required placeholder="Company / Firm Name *" />
+            </div>
+            <div>
+              <select id="serviceSelect" class="glass-select">
+                <option value="upstream" data-i18n="opt1">Upstream Financial &amp; Commercial</option>
+                <option value="psc" data-i18n="opt2">PSC / TSC &amp; Cost Recovery</option>
+                <option value="economics" data-i18n="opt3">Field Economics &amp; Modelling</option>
+                <option value="audit" data-i18n="opt4">Audit, Controls &amp; Assurance</option>
+                <option value="carbon" data-i18n="opt5">Carbon &amp; GRI Sustainability</option>
+                <option value="partner" data-i18n="opt6">Collaborative Partner Model</option>
+              </select>
+            </div>
+            <div class="col-full">
+              <textarea id="msgInput" class="glass-textarea" required placeholder="Brief scope of your inquiry..."></textarea>
+            </div>
+            <div class="col-full">
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span data-i18n="btnSubmit">Send Confidential Message</span>
+              </button>
+            </div>
+          </div>
+          <div id="feedbackBox" style="display:none; margin-top: 0.65rem; font-size: 0.8rem; text-align: center; color: #7BE41E; font-weight: 600;"></div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        © 2026 Nexus Energy Resources FZE. <span data-i18n="fRights">All rights reserved.</span>
+      </div>
+      <div style="display: flex; gap: 1.25rem;">
+        <a href="mailto:arda.y@nexenr.com" style="color: #FF5E85;">arda.y@nexenr.com</a>
+        <a href="https://www.nexenr.com" target="_blank">www.nexenr.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slider & Language Script -->
+  <script>
+    const translations = {
+      en: {
+        navAbout: "About",
+        navLeadership: "Leadership",
+        navServices: "Services",
+        navSustainability: "Carbon & ESG",
+        navTrackRecord: "Track Record",
+        navPartnerModel: "Partner Model",
+        navContact: "Contact",
+        btnInquire: "Contact",
+
+        heroBadge: "Senior-Led • Sector-Experienced • Commercially Focused",
+        heroTitle: 'Senior Advisory for <span class="text-red">Upstream Oil & Gas</span>, <span class="text-green">Natural Resources</span> & Energy',
+        heroDesc: "Nexus Energy Resources FZE delivers senior financial, commercial, and strategic advisory support. Combining more than 25 years across audit, assurance, finance, commercial management, and operational leadership — with over 20 years focused on producing assets, PSC/TSC arrangements, and field economics.",
+        btnExploreServices: "Explore Advisory Services",
+        btnPartnerModel: "Collaborative Delivery Model",
+
+        m1: "Audit & Commercial Leadership",
+        m2: "Upstream Energy Sector Depth",
+        m3: "Field Production Scale Managed",
+        m4: "Global Certified Credentials",
+
+        aboutBadge: "Strategic Perspective",
+        aboutTitle: "Connecting Finance, Operations, Contracts & Governance",
+        aboutDesc: "Nexus approaches assignments by connecting financial analysis, contracts, operations, controls, and management decision-making rather than treating each workstream in isolation.",
+
+        p1T: "Upstream Depth",
+        p1D: "UK and global asset audit to executive leadership in producing PSC operator, refining, and oilfield services.",
+        p2T: "Commercial Perspective",
+        p2D: "Connecting fiscal models, production costs, and commercial contracts into decision-useful intelligence.",
+        p3T: "Senior-Led Delivery",
+        p3D: "Direct senior involvement from initial scoping through execution, review, and board-level communication.",
+        p4T: "Field-Informed Advice",
+        p4D: "Recommendations grounded in how producing assets, contractual agreements, and host-government interfaces work in practice.",
+        p5T: "Partner-Ready Model",
+        p5D: "A flexible model that complements an established firm’s client platform without permanent recruitment overhead.",
+
+        leadBadge: "Professional Foundation",
+        leadTitle: "Leadership Grounded in Sector Realities",
+        leadDesc: "Operates through a founder-led model, bringing 25+ years across Tier-1 professional services and direct upstream operator leadership.",
+        fRole: "Founder & Lead Consultant",
+        fBio: "Arda has 25+ years of international professional experience. At PwC UK, he specialised in upstream oil and gas audit, valuation, due diligence, and PSC/TSC environments. He then spent ten years as Deputy General Manager and Head of Finance, Commercial & Supply Chain for Taq Taq Operating Company, managing field expansion from 30k to 145k BOPD under a PSC. In 2023, he established Nexus Energy Resources FZE to deliver senior financial and management advisory.",
+        fCompHeading: "Core Professional Expertise",
+        cp1: "Upstream oil & gas finance, accounting & IFRS",
+        cp2: "Fiscal modelling, budgeting & field economics",
+        cp3: "PSC & TSC accounting, cost recovery & JV governance",
+        cp4: "Internal audit, internal controls & risk management",
+        cp5: "Commercial contracts, tendering & supply chain",
+        cp6: "Host-government & stakeholder interfaces",
+        cp7: "Valuation, due diligence & M&A support",
+        cp8: "Multidisciplinary field & project leadership",
+
+        servBadge: "Interactive Portfolio",
+        servTitle: "Core Upstream Oil & Gas and Energy Services",
+        servDesc: "Slide or swipe through our 6 senior advisory capability domains.",
+        sliderTip: "Swipe or use arrows to explore",
+
+        sv1T: "Upstream Financial & Commercial",
+        sv1b1: "Senior finance & commercial support for operators and project teams.",
+        sv1b2: "Cash flow, treasury, budgeting, and performance oversight.",
+        sv1b3: "Integration of financial analysis with field costs and production targets.",
+
+        sv2T: "PSC, TSC & Cost Recovery",
+        sv2b1: "PSC & TSC interpretation, fiscal terms, and contractor-government interfaces.",
+        sv2b2: "Petroleum cost recovery allocation, joint accounting, and audit support.",
+        sv2b3: "Joint-venture governance, partner reporting, and committee support.",
+
+        sv3T: "Field Economics & Planning",
+        sv3b1: "Financial and fiscal modelling, budgets, forecasts, and long-range plans.",
+        sv3b2: "Price, production, capex sensitivity and multi-scenario analyses.",
+        sv3b3: "Field and project economics for management, boards, and transactions.",
+
+        sv4T: "Contracts & Supply Chain",
+        sv4b1: "Tender strategy, bid evaluation, contracting, and commercial negotiations.",
+        sv4b2: "Contract, procurement, supply-chain, and cost reviews.",
+        sv4b3: "Claims, change orders, supplier performance, and cost optimisation.",
+
+        sv5T: "Audit & Operational Assurance",
+        sv5b1: "Internal audit, control reviews, and business-process improvement.",
+        sv5b2: "Cost-recovery, contract, and supply-chain audits.",
+        sv5b3: "Governance, data reliability, risk management, and corrective-action plans.",
+
+        sv6T: "Transactions & Sector Strategy",
+        sv6b1: "Buy-side and sell-side due diligence, valuation, and business-plan review.",
+        sv6b2: "Licensing rounds, market entry intelligence, and strategic advisory.",
+        sv6b3: "Specialist training in oil and gas finance, accounting, and PSCs.",
+
+        sustBadge: "Energy Transition & ESG",
+        sustTitle: "Complementary Carbon & Sustainability Advisory",
+        sustDesc: "Carbon-footprint and sustainability services complement the core financial offering, backed by the same disciplined approach to scoping, evidence, controls, and defensible reporting.",
+        s1Head: "Carbon & GHG Advisory",
+        s1Body: "Corporate & facility GHG inventories, organisational boundaries, source screening, and calculation support based on the GHG Protocol.",
+        s2Head: "Sustainability & GRI Reporting",
+        s2Body: "Reporting strategy, CSRD/GRI readiness, impact and material-topic assessment aligned with Global Reporting Initiative Standards.",
+        s3Head: "Integrated Governance",
+        s3Body: "Intersecting financial, operational, and sustainability decisions — energy transition feasibility, regulatory readiness, and board reporting.",
+
+        trBadge: "Proven Track Record",
+        trTitle: "Selected Career & Advisory Experience",
+        trDesc: "25+ years across international firms, producing operating assets, and dedicated energy advisory.",
+        t1T: "Deloitte, Yaşar & Postgraduate",
+        t1D: "Audit experience across industrial and energy businesses; MSc in Financial Management from Robert Gordon University in Aberdeen, UK.",
+        t2T: "PwC UK Upstream Oil & Gas",
+        t2D: "Senior Manager specialising in upstream oil and gas: audit, IPO readiness, due diligence, valuation, and PSC/TSC environments in the UK and globally.",
+        t3T: "Taq Taq Operating Co (Operator)",
+        t3D: "Deputy GM and Head of Finance, Commercial & Supply Chain for producing oilfield; grew production from ~30k to 145k BOPD under a PSC.",
+        t4T: "Nexus Energy Resources FZE",
+        t4D: "Senior-led advisory practice for upstream oil & gas, oilfield services, and energy, with complementary GRI carbon advisory.",
+        rTitle: "Representative Organisations Supported:",
+
+        pmBadge: "Strategic Partnership",
+        pmTitle: "Collaborative Delivery Model",
+        pmDesc: "Working alongside established accounting, assurance, and advisory firms (The \"Partner Firm\") to combine institutional reach with upstream sector depth.",
+        ls1T: "Origination & Scoping",
+        ls1D: "Both parties originate opportunities. Nexus leads or supports technical scoping and proposal development under agreed client routes.",
+        ls2T: "Technical Delivery & Management",
+        ls2D: "Nexus leads financial/commercial analysis and models; Partner Firm provides partner oversight and local supporting staff.",
+        ls3T: "Joint Client Outcome",
+        ls3D: "Integrated senior-led delivery under agreed branding, creating credible capacity without permanent recruitment overhead.",
+        pr1H: "The Partner Firm May Contribute:",
+        pr1i1: "Client access, market presence, and business-development channels.",
+        pr1i2: "Institutional credentials, contracting, and engagement administration.",
+        pr1i3: "Partner oversight, supporting staff, and wider advisory capabilities.",
+        pr1i4: "Quality, risk management, and client-acceptance processes.",
+        pr2H: "Nexus Energy Resources May Contribute:",
+        pr2i1: "Sector opportunity assessment, scoping, and bespoke methodology.",
+        pr2i2: "Technical proposal input, pricing support, and project planning.",
+        pr2i3: "Senior financial, commercial, and technical execution.",
+        pr2i4: "Client project management, reports, fiscal models, and board decks.",
+
+        cBadge: "Direct Senior Engagement",
+        cTitle: "Discuss an Advisory Assignment or Collaboration",
+        cDesc: "Whether you are an upstream operator seeking high-impact commercial support, an investor evaluating energy assets, or an advisory firm seeking senior sector delivery capacity, we welcome a direct dialogue.",
+        opt1: "Upstream Financial & Commercial",
+        opt2: "PSC / TSC & Cost Recovery",
+        opt3: "Field Economics & Modelling",
+        opt4: "Audit, Controls & Assurance",
+        opt5: "Carbon & GRI Sustainability",
+        opt6: "Collaborative Partner Model",
+        btnSubmit: "Send Confidential Message",
+        fRights: "All rights reserved."
+      },
+      ar: {
+        navAbout: "عن نيكسوس",
+        navLeadership: "القيادة",
+        navServices: "الخدمات",
+        navSustainability: "الكربون والاستدامة",
+        navTrackRecord: "سجل الإنجازات",
+        navPartnerModel: "نموذج الشراكة",
+        navContact: "تواصل معنا",
+        btnInquire: "تواصل معنا",
+
+        heroBadge: "قيادة تنفيذية عليا • خبرة قطاعية متعمقة • تركيز تجاري استراتيجي",
+        heroTitle: 'استشارات رفيعة المستوى لقطاعات <span class="text-red">استكشاف وإنتاج النفط والغاز</span>، <span class="text-green">الموارد الطبيعية</span> والطاقة',
+        heroDesc: "تقدم شركة نيكسوس لمصادر الطاقة (Nexus Energy Resources FZE) دعماً استشارياً مالياً وتجارياً واستراتيجياً بقيادة كبار الخبراء. نجمع بين أكثر من 25 عاماً من الخبرة في التدقيق والتأكيد والإدارة المالية والتجارية والعمليات الميدانية — مع أكثر من 20 عاماً مخصصة للأصول المنتجة، وعقود مشاركة الإنتاج (PSC/TSC)، واقتصاديات الحقول.",
+        btnExploreServices: "استكشف الخدمات الاستشارية",
+        btnPartnerModel: "نموذج التنفيذ التعاوني",
+
+        m1: "قيادة التدقيق والإدارة التجارية",
+        m2: "تخصص متعمق في قطاع الطاقة",
+        m3: "إنتاج الحقول المُدارة يومياً",
+        m4: "اعتمادات مهنية دولية معتمدة",
+
+        aboutBadge: "الرؤية الاستراتيجية",
+        aboutTitle: "الربط بين التحليل المالي والعمليات والعقود والحوكمة",
+        aboutDesc: "تعتمد نيكسوس في مهامها على الربط الوثيق بين التحليل المالي، والعقود، والعمليات الميدانية، وضوابط الرقابة الداخلية، وقرارات الإدارة العليا بدلاً من عزل كل مسار.",
+
+        p1T: "عمق استكشافي ميداني",
+        p1D: "خبرة تدقيق أصول المملكة المتحدة وأصول دولية وصولاً لقيادة مشغل حقول منتجة بعقود PSC.",
+        p2T: "منظور تجاري ومالي",
+        p2D: "تحويل النماذج المالية وتكاليف الحقول والعقود إلى رؤى تنفيذية تدعم اتخاذ القرارات.",
+        p3T: "تنفيذ بقيادة كبار الخبراء",
+        p3D: "مشاركة قيادية مباشرة ومستمرة من تحديد نطاق العمل حتى تقارير مجالس الإدارة.",
+        p4T: "استشارات ميدانية حقيقية",
+        p4D: "توصيات مستندة للواقع الفعلي لتشغيل الأصول النفطية، عقود PSC، والتنسيق الحكومي.",
+        p5T: "جاهزية للشراكة المؤسسية",
+        p5D: "نموذج مرن يكمل قدرات مكاتب التدقيق والاستشارات القائمة دون الحاجة لتوظيف دائم.",
+
+        leadBadge: "الأساس المهني",
+        leadTitle: "قيادة متجذرة في الواقع الميداني والقطاعي",
+        leadDesc: "تعمل نيكسوس عبر نموذج يقوده المؤسس مباشرة، حاملاً أكثر من ربع قرن من الخبرة الدولية الرفيعة.",
+        fRole: "المؤسس والمستشار الرئيسي",
+        fBio: "يمتلك أردا أكثر من 25 عاماً من الخبرة المهنية الدولية. قاد في برايس ووترهاوس كوبرز (PwC UK) تدقيق واستشارات شركات وأصول النفط والغاز والفحص النافي للجهالة وعقود PSC. ثم أمضى عشر سنوات كنائب للمدير العام ورئيس المالية والتجارة وسلاسل الإمداد لشركة طاوكي المشغلة لحقل نفطي منتج (توسع من 30 إلى 145 ألف برميل يومياً). أسس نيكسوس في عام 2023.",
+        fCompHeading: "نطاق الخبرات المهنية والتخصصات",
+        cp1: "تمويل ومحاسبة النفط والغاز والتقارير الدولية IFRS",
+        cp2: "النمذجة الضريبية والموازنات واقتصاديات الحقول",
+        cp3: "محاسبة عقود PSC وTSC واسترداد التكاليف وحوكمة JV",
+        cp4: "التدقيق الداخلي ومراجعة الضوابط وإدارة المخاطر",
+        cp5: "العقود التجارية والمناقصات وإدارة سلاسل الإمداد",
+        cp6: "التنسيق مع الحكومات المضيفة والشركاء",
+        cp7: "التقييم والفحص المالي النافي للجهالة ودعم الصفقات",
+        cp8: "القيادة الميدانية وإدارة المشاريع متعددة التخصصات",
+
+        servBadge: "محفظة تفاعلية",
+        servTitle: "الخدمات الاستشارية لقطاع النفط والغاز والطاقة",
+        servDesc: "مرر شريط العرض لاستكشاف مجالات قدراتنا الاستشارية الستة المتخصصة.",
+        sliderTip: "اسحب أو استخدم الأسهم للتنقل",
+
+        sv1T: "الإدارة المالية والتجارية للاستكشاف والإنتاج",
+        sv1b1: "دعم مالي وتجاري وإداري رفيع المستوى للمشغلين وفرق المشاريع.",
+        sv1b2: "إدارة السيولة النقدية، الموازنات التقديرية، والتقارير التنفيذية.",
+        sv1b3: "دمج التحليل المالي مع معدلات الإنتاج وتكاليف الحقول الميدانية.",
+
+        sv2T: "عقود PSC وTSC واسترداد التكاليف",
+        sv2b1: "تفسير عقود PSC/TSC، الآثار الضريبية، والتنسيق مع اللجان الحكومية.",
+        sv2b2: "استرداد تكاليف البترول (Cost Recovery)، والمحاسبة المشتركة والتدقيق.",
+        sv2b3: "حوكمة المشاريع المشتركة (JV)، تقارير الشركاء ولجان الإدارة.",
+
+        sv3T: "اقتصاديات الحقول والتخطيط المالي",
+        sv3b1: "النمذجة الضريبية والمالية، الموازنات، والتخطيط بعيد المدى للأصول.",
+        sv3b2: "تحليلات الحساسية للأسعار ومعدلات الإنتاج والنفقات الرأسمالية.",
+        sv3b3: "اقتصاديات الأصول لمجالس الإدارة وقرارات الاستحواذ والاندماج.",
+
+        sv4T: "العقود وسلاسل الإمداد والمشتريات",
+        sv4b1: "استراتيجيات المناقصات، تقييم العروض، والمفاوضات التجارية.",
+        sv4b2: "مراجعة العقود وسلاسل التوريد وتحسين هياكل التكاليف التشغيلية.",
+        sv4b3: "إدارة المطالبات وأوامر التغيير وتقييم أداء الموردين وخفض الهدر.",
+
+        sv5T: "التدقيق والتأكيد الرقابي والتشغيلي",
+        sv5b1: "التدقيق الداخلي، مراجعة أنظمة الرقابة، وتطوير العمليات التشغيلية.",
+        sv5b2: "تدقيق استرداد التكاليف النفطية وعقود الموردين والمقاولين.",
+        sv5b3: "الحوكمة، موثوقية البيانات المالية، إدارة المخاطر، والخطط التصحيحية.",
+
+        sv6T: "الصفقات الاستراتيجية ودعم القطاع",
+        sv6b1: "الفحص النافي للجهالة (شراء/بيع)، تقييم الأصول، وخطط الأعمال.",
+        sv6b2: "جولات التراخيص النفطية، استراتيجيات دخول الأسواق، واستخبارات القطاع.",
+        sv6b3: "تدريب تنفيذي متخصص في مالية ومحاسبة النفط والغاز وعقود PSC.",
+
+        sustBadge: "تحول الطاقة والاستدامة المؤسسية",
+        sustTitle: "استشارات تكميلية في الكربون ومعايير GRI",
+        sustDesc: "خدمات كربون واستدامة تتبع نفس الانضباط المالي الصارم: الحوكمة، أدلة التدقيق، والتقارير القابلة للدفاع عنها.",
+        s1Head: "جرد انبعاثات GHG والكربون",
+        s1Body: "قوائم جرد غازات الاحتباس الحراري للشركات والمنشآت وفق بروتوكول GHG العالمي.",
+        s2Head: "تقييم وتقارير معايير GRI",
+        s2Body: "استراتيجية إعداد التقارير، جاهزية CSRD/GRI، وتقييم الأثر والموضوعات الجوهرية.",
+        s3Head: "الحوكمة الاستراتيجية المتكاملة",
+        s3Body: "نقاط التقاطع بين القرارات المالية والتشغيلية والكربونية وجاهزية اللوائح ومجالس الإدارة.",
+
+        trBadge: "سجل حافل بالإنجازات",
+        trTitle: "محطات مختارة في المسيرة المهنية (25+ عاماً)",
+        trDesc: "خبرة قيادية دولية ممتدة عبر كبرى بيوت الخبرة والمشروعات المشغلة للحقول النفطية.",
+        t1T: "ديلويت، يشار القابضة والدراسات العليا",
+        t1D: "تدقيق شركات الطاقة والصناعة؛ وماجستير الإدارة المالية من جامعة روبرت جوردون (بريطانيا).",
+        t2T: "PwC المملكة المتحدة - الاستكشاف والإنتاج",
+        t2D: "مدير أول لقطاع المنبع؛ قيادة التدقيق وجاهزية الاكتتاب والتقييم في بحر الشمال دولياً.",
+        t3T: "شركة طاوكي للعمليات النفطية (مشغل منتج)",
+        t3D: "نائب المدير العام ورئيس المالية والتجارة؛ قيادة التوسع من 30 إلى 145 ألف برميل يومياً بعقد PSC.",
+        t4T: "تأسيس Nexus Energy Resources FZE",
+        t4D: "ممارسة استشارية بقيادة تنفيذية عليا للنفط والغاز والموارد الطبيعية مع استشارات GRI.",
+        rTitle: "نماذج من العملاء والمؤسسات المدعومة:",
+
+        pmBadge: "شراكة استراتيجية مثمرة",
+        pmTitle: "نموذج التنفيذ التعاوني (مع الشركاء)",
+        pmDesc: "العمل جنباً إلى جنب مع كبرى مكاتب التدقيق والاستشارات ('الشركة الشريكة') لدمج الحضور المؤسسي مع عمق الخبرة النفطية.",
+        ls1T: "تحديد الفرص ونطاق العمل",
+        ls1D: "تقييم مشترك للفرص وتطوير العروض الفنية التنافسية وفق الترتيبات المعتمدة.",
+        ls2T: "التسليم والإشراف الفني",
+        ls2D: "تقود نيكسوس التحليلات المالية والضريبية؛ وتوفر الشركة الشريكة الإشراف والكوادر.",
+        ls3T: "النتيجة المشتركة للعميل",
+        ls3D: "تسليم متكامل تحت هوية معتمدة؛ مما يوسع قدرة الشريك دون الحاجة لتوظيف دائم.",
+        pr1H: "مساهمة الشركة الشريكة:",
+        pr1i1: "الوصول للعملاء، الحضور في السوق، وإدارة التعاقدات والمهام.",
+        pr1i2: "إشراف الشركاء، الكوادر المحلية المساندة، ومنظومة قبول المخاطر والجودة.",
+        pr1i3: "الاعتمادات المؤسسية وإدارة العقود الرسمية.",
+        pr1i4: "عمليات ضبط الجودة والامتثال المؤسسي.",
+        pr2H: "مساهمة نيكسوس لمصادر الطاقة:",
+        pr2i1: "تحديد النطاق الفني للطاقة، النماذج المالية والضريبية، والتنفيذ القيادي.",
+        pr2i2: "صياغة العروض التنافسية وتخطيط المشاريع بدقة.",
+        pr2i3: "إدارة مشاريع العملاء، إعداد تقارير مجالس الإدارة، وعمق الخبرة النفطية الميدانية.",
+        pr2i4: "التنفيذ التجاري والمالي والفني المباشر بقيادة كبار الخبراء.",
+
+        cBadge: "تواصل مباشر مع القيادة",
+        cTitle: "ناقش مهمة استشارية أو فرصة شراكة",
+        cDesc: "سواء كنت مشغلاً نفطياً يبحث عن دعم تجاري ومالي عالي الأثر، أو مستثمراً يقيّم أصولاً في الطاقة، أو شركة استشارية تسعى لتوسيع قدراتها التنفيذية في القطاع، فإننا نرحب بالحوار المباشر معك.",
+        opt1: "الإدارة المالية والتجارية للاستكشاف والإنتاج",
+        opt2: "عقود PSC / TSC واسترداد التكاليف",
+        opt3: "اقتصاديات الحقول والنمذجة المالية",
+        opt4: "التدقيق والضوابط والتأكيد التشغيلي",
+        opt5: "البصمة الكربونية وتقارير استدامة GRI",
+        opt6: "نموذج الشراكة والتعاون المؤسسي",
+        btnSubmit: "إرسال الرسالة السرية",
+        fRights: "جميع الحقوق محفوظة."
+      }
+    };
+
+    let curLang = 'en';
+
+    function setLang(lang) {
+      if (!translations[lang]) return;
+      curLang = lang;
+
+      document.documentElement.setAttribute('lang', lang);
+      document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+
+      document.getElementById('btnEn').classList.toggle('active', lang === 'en');
+      document.getElementById('btnAr').classList.toggle('active', lang === 'ar');
+
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang][key]) {
+          el.innerHTML = translations[lang][key];
+        }
+      });
+
+      if (lang === 'ar') {
+        document.getElementById('nameInput').placeholder = 'الاسم الكامل *';
+        document.getElementById('emailInput').placeholder = 'البريد الإلكتروني المهني *';
+        document.getElementById('companyInput').placeholder = 'اسم الشركة أو المؤسسة الشريكة *';
+        document.getElementById('msgInput').placeholder = 'نبذة مختصرة عن المشروع أو الاستفسار...';
+      } else {
+        document.getElementById('nameInput').placeholder = 'Your Name *';
+        document.getElementById('emailInput').placeholder = 'Corporate Email *';
+        document.getElementById('companyInput').placeholder = 'Company / Firm Name *';
+        document.getElementById('msgInput').placeholder = 'Brief scope of your inquiry...';
+      }
+
+      // Slider pozisyonunu RTL'ye göre yeniden hizala
+      updateSliderPosition();
+    }
+
+    function toggleDrawer() {
+      const drawer = document.getElementById('mobileDrawer');
+      const overlay = document.getElementById('drawerOverlay');
+      drawer.classList.toggle('open');
+      overlay.classList.toggle('open');
+    }
+
+    function scrollToSec(id) {
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    function handleForm(e) {
+      e.preventDefault();
+      const fb = document.getElementById('feedbackBox');
+      fb.style.display = 'block';
+      if (curLang === 'ar') {
+        fb.innerHTML = '<i class="fa-solid fa-circle-check"></i> تم استلام طلبكم بنجاح. سيتواصل معكم المستشار الرئيسي أردا ياكيجي مباشرة.';
+      } else {
+        fb.innerHTML = '<i class="fa-solid fa-circle-check"></i> Thank you. Lead Consultant Arda Yakıcı will respond to your inquiry shortly.';
+      }
+      document.getElementById('contactForm').reset();
+    }
+
+    /* ==========================================================
+       SLIDER (CAROUSEL) YÖNETİM MANTIĞI
+       ========================================================== */
+    let currentSlide = 0;
+    const track = document.getElementById('sliderTrack');
+    const slides = document.querySelectorAll('.slide-card');
+    const totalSlides = slides.length;
+    const dotsContainer = document.getElementById('sliderDots');
+
+    function getVisibleSlides() {
+      const w = window.innerWidth;
+      if (w < 768) return 1;
+      if (w < 992) return 2;
+      return 3;
+    }
+
+    function getMaxIndex() {
+      return Math.max(0, totalSlides - getVisibleSlides());
+    }
+
+    function initDots() {
+      dotsContainer.innerHTML = '';
+      const maxIdx = getMaxIndex();
+      for (let i = 0; i <= maxIdx; i++) {
+        const dot = document.createElement('button');
+        dot.className = 'dot-btn' + (i === currentSlide ? ' active' : '');
+        dot.setAttribute('aria-label', 'Slide ' + (i + 1));
+        dot.onclick = () => goToSlide(i);
+        dotsContainer.appendChild(dot);
+      }
+    }
+
+    function updateSliderPosition() {
+      const isRTL = document.documentElement.getAttribute('dir') === 'rtl';
+      const maxIdx = getMaxIndex();
+      if (currentSlide > maxIdx) currentSlide = maxIdx;
+
+      const card = slides[0];
+      const gap = 16; // 1rem
+      const cardWidth = card.offsetWidth;
+      const step = cardWidth + gap;
+
+      const offset = currentSlide * step;
+      const transformValue = isRTL ? `translateX(${offset}px)` : `translateX(-${offset}px)`;
+      track.style.transform = transformValue;
+
+      const dots = dotsContainer.querySelectorAll('.dot-btn');
+      dots.forEach((d, idx) => {
+        d.classList.toggle('active', idx === currentSlide);
+      });
+
+      document.getElementById('prevBtn').disabled = (currentSlide === 0);
+      document.getElementById('nextBtn').disabled = (currentSlide >= maxIdx);
+    }
+
+    function slideServices(direction) {
+      const maxIdx = getMaxIndex();
+      currentSlide = Math.min(Math.max(0, currentSlide + direction), maxIdx);
+      updateSliderPosition();
+    }
+
+    function goToSlide(index) {
+      currentSlide = index;
+      updateSliderPosition();
+    }
+
+    window.addEventListener('resize', () => {
+      initDots();
+      updateSliderPosition();
+    });
+
+    // Mobil Dokunmatik Kaydırma (Swipe) Desteği
+    let touchStartX = 0;
+    let touchEndX = 0;
+    const container = document.getElementById('sliderContainer');
+
+    container.addEventListener('touchstart', e => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    container.addEventListener('touchend', e => {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    }, { passive: true });
+
+    function handleSwipe() {
+      const diff = touchEndX - touchStartX;
+      const isRTL = document.documentElement.getAttribute('dir') === 'rtl';
+      if (Math.abs(diff) > 40) {
+        if (diff < 0) {
+          slideServices(isRTL ? -1 : 1);
+        } else {
+          slideServices(isRTL ? 1 : -1);
+        }
+      }
+    }
+
+    initDots();
+    updateSliderPosition();
+  </script>
+</body>
+</html>
